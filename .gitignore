@@ -1,0 +1,10 @@
+#ignores build folder
+#build/  #currently not using cmake
+
+#ignores .vscode
+.vscode/
+
+#ignores all .exe, .pdf, .txt files
+*.exe
+*.pdf
+*.txt
