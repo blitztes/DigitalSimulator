@@ -17,7 +17,7 @@ int main() {
     LogicEngine engine;
     engine.setCircuitName("Leak-Test-Schaltung");
 
-    std::cout << "Baue Schaltung auf dem Heap (Wird aktuell NICHT gelöscht!)..." << std::endl;
+    std::cout << "Baue Schaltung auf dem Heap (Wird aktuell NICHT gelöscht!)...TESTAENDERUNG" << std::endl;
 
     // ---------------------------------------------------------
     // VERALTETER CODE: Nutzung von nacktem 'new'.
