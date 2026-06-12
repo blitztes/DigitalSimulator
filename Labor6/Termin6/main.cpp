@@ -57,7 +57,7 @@ int main() {
     std::cout << "\nStarte Simulation:" << std::endl;
     engine.doTick();
 
-    std::cout << "\nProgramm beendet. Achtung: RAM wurde nicht freigegeben! TESTKONFLIKT" << std::endl;
+    std::cout << "\nProgramm beendet. Achtung: RAM wurde nicht freigegeben! CHANGED TESTKONFLIKT2" << std::endl;
 
     // FEHLER: Hier fehlen 'delete g1;', 'delete g2;', 'delete g3;'
     
