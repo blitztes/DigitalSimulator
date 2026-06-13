@@ -29,7 +29,8 @@ int main() {
     //auto: Datentyp automatisch eingefuegt. 
     //Hier: auto = std::unique_ptr<AndGate>
 
-    auto g1 = std::make_unique<AndGate>("Haupt-AND");
+    auto g1 = std::make_unique<AndGate>("Haupt-AND");  //Stellt ein ANDGate Objekt her
+                                                //und wird benannt. Mit Smart-Pointer
     auto g2 = std::make_unique<OrGate>("Haupt-OR");
     auto g3 = std::make_unique<XorGate>("Test-XOR");
 
