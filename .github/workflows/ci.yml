@@ -20,7 +20,7 @@ jobs:
       - name: Fuehre Wahrheitstabellen Tests aus
         # Weiche fuer Betriebssystem-Kompatibilitaet beim Ausfuehren des Binaries
         run: |
-          if [ -f "./simulator"]; then
+          if [ -f "./simulator" ]; then
             ./simulator
           else
             ./simulator.exe
