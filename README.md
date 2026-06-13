@@ -25,3 +25,5 @@ Ein README.md sollte idealerweise auch kurz sagen:
 - welche Dateien wichtig sind.
 
 So wirkt es professioneller und verständlicher.
+
+[![C++ Automated Test Suite](https://github.com/blitztes/DigitalSimulator/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/blitztes/DigitalSimulator/actions/workflows/ci.yml)
