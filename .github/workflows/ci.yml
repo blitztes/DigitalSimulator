@@ -20,6 +20,7 @@ jobs:
       - name: Fuehre Wahrheitstabellen Tests aus
         # Weiche fuer Betriebssystem-Kompatibilitaet beim Ausfuehren des Binaries
         run: |
+          cd Labor7/Termin7  # Lokaler Pfad fuer simulator.exe file
           if [ -f "./simulator" ]; then
             ./simulator
           else
